@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>bedrockserver_update</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="autoconsole-v0.2.0">
+      <HintPath>..\..\autoconsole-v0.2.0\autoconsole-v0.2.0\bin\Debug\net8.0\autoconsole-v0.2.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
