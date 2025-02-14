@@ -11,7 +11,7 @@ public class UpdatePlugin : IPlugin
     public string Type => "input";
     public string Trigger => "update";
     private bool isRunning = false;
-    private string baseDirectory = "C:\\Users\\はじめよう\\source\\repos\\autoconsole-v0.2.0\\autoconsole-v0.2.0\\bin\\Debug\\net8.0";
+    private string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
     public void Execute(string input, Action<string> sendCommand)
     {
         Console.WriteLine($"[DEBUG] {Name} Execute called with input: {input}");
